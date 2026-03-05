@@ -25,7 +25,7 @@ source ~/.bashrc
 
 ## 测试
 在两边测试
-```
+```bash
 curl --proxy http://127.0.0.1:7897 https://api.ipify.org
 
 curl --proxy http://127.0.0.1:1080 https://api.ipify.org
@@ -34,7 +34,9 @@ curl --proxy http://127.0.0.1:1080 https://api.ipify.org
 
 
 ## 查看当前ip属地
+```bash
 curl ipinfo.io
+```
 
 
 
