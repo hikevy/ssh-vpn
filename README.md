@@ -33,6 +33,10 @@ curl --proxy http://127.0.0.1:1080 https://api.ipify.org
 查看结果是否一致
 
 
+## 查看当前ip属地
+curl ipinfo.io
+
+
 
 
 
