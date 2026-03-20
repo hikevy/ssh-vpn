@@ -39,6 +39,13 @@ curl ipinfo.io
 ```
 
 
+## 为Git本身配置代理  
+在服务器终端中输入curl https://github.com：
+```
+git config --global http.proxy  http://127.0.0.1:1080
+git config --global https.proxy http://127.0.0.1:1080
+```
+
 
 
 
